@@ -46,8 +46,8 @@ public class Calculator {
      * @param b the b
      * @return the int
      */
-    public static int duv(int a, int b) {
-        return 0;
+    public static int div(int a, int b) {
+        return a / b;
     }
 
     /**

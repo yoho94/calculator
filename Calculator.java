@@ -44,7 +44,7 @@ public class Calculator {
     }
 
     /**
-     * Duv int.
+     * Div int.
      *
      * @param a the a
      * @param b the b
@@ -52,7 +52,6 @@ public class Calculator {
      */
     public static int div(int a, int b) {
         return a / b;
-
     }
 
     /**

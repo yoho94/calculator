@@ -81,7 +81,6 @@ public class Calculator {
      * @return the int
      */
     public static int div(int a, int b) {
-
         return a / b;
     }
 

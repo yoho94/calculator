@@ -40,12 +40,7 @@ public class Calculator {
      * @return the int
      */
     public static int sub(int a, int b) {
-        if (a >= b) {
-            System.out.print(a + " - " + b + " = " );
-        } else {
-            System.out.print(b + " - " + a + " = " );
-        }
-        return a - b;
+        return Math.max(a, b) - Math.min(a, b);
     }
 
     /**

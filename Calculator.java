@@ -16,9 +16,34 @@ public class Calculator {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("input : ");
+        System.out.println("input a ? b : ");
+        int a = sc.nextInt();
+        char c = sc.next().charAt(0);
+        int b = sc.nextInt();
 
-        System.out.println("result : ");
+        int result;
+
+        switch (c) {
+            case '+':
+                result = add(a, b);
+                break;
+            case '-':
+                result = sub(a, b);
+                break;
+            case '/':
+                result = div(a, b);
+                break;
+            case '%':
+                result = mod(a, b);
+                break;
+            case '*':
+            case 'X':
+            case 'x':
+                result = mul(a, b);
+                break;
+        }
+
+        System.out.println("result : " + result);
     }
 
     /**

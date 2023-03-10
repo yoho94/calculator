@@ -69,7 +69,7 @@ public class Calculator {
      * @return the int
      */
     public static int mod(int a, int b) {
-        return a%b;
+        return a % b;
     }
 
 }

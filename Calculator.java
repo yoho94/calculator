@@ -16,7 +16,8 @@ public class Calculator {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("input a, b with item");
+        System.out.println("인풋 a ? b with item : ");
+
         int a = sc.nextInt();
         char c = sc.next().charAt(0);
         int b = sc.nextInt();
@@ -43,7 +44,7 @@ public class Calculator {
                 break;
         }
 
-        System.out.println("result : " + result);
+        System.out.println("결과 : " + result);
     }
 
     /**

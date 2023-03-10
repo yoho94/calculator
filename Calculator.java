@@ -25,7 +25,7 @@ public class Calculator {
      * @return the int
      */
     public static int add(int a, int b) {
-        return 0;
+        return a+b;
     }
 
     /**

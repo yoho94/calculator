@@ -58,7 +58,6 @@ public class Calculator {
      * @return the int
      */
     public static int mul(int a, int b) {
-        System.out.println("곱하기 함수입니다");
         return a * b;
     }
 

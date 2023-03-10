@@ -65,6 +65,11 @@ public class Calculator {
      * @return the int
      */
     public static int sub(int a, int b) {
+        if (a >= b) {
+            System.out.print("a가 b보다 큽니다.");
+        } else {
+            System.out.print("a가 b보다 작습니다.");
+        }
         return Math.max(a, b) - Math.min(a, b);
     }
 

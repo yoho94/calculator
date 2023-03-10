@@ -62,7 +62,7 @@ public class Calculator {
      * @return the int
      */
     public static int mul(int a, int b) {
-        return 0;
+        return a * b;
     }
 
     /**

@@ -41,9 +41,9 @@ public class Calculator {
      */
     public static int sub(int a, int b) {
         if (a >= b) {
-            System.out.print(a + " - " + b + " = " );
+            System.out.print("a가 b보다 큽니다.");
         } else {
-            System.out.print(b + " - " + a + " = " );
+            System.out.print("a가 b보다 작습니다.");
         }
         return a - b;
     }

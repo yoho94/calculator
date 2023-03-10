@@ -16,7 +16,8 @@ public class Calculator {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("인풋 a ? b : ");
+        System.out.println("인풋 a ? b with item : ");
+
         int a = sc.nextInt();
         char c = sc.next().charAt(0);
         int b = sc.nextInt();

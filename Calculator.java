@@ -17,7 +17,8 @@ public class Calculator {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("input a ? b : ");
+        System.out.println("인풋 a ? b with item : ");
+
         int a = sc.nextInt();
         char c = sc.next().charAt(0);
         int b = sc.nextInt();
@@ -44,7 +45,7 @@ public class Calculator {
                 break;
         }
 
-        System.out.println("result : " + result);
+        System.out.println("결과 : " + result);
     }
 
     /**
@@ -66,6 +67,11 @@ public class Calculator {
      * @return the int
      */
     public static int sub(int a, int b) {
+        if (a >= b) {
+            System.out.print("a가 b보다 큽니다.");
+        } else {
+            System.out.print("a가 b보다 작습니다.");
+        }
         return Math.max(a, b) - Math.min(a, b);
     }
 

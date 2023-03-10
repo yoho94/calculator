@@ -45,7 +45,7 @@ public class Calculator {
         } else {
             System.out.print("a가 b보다 작습니다.");
         }
-        return a - b;
+        return Math.max(a, b) - Math.min(a, b);
     }
 
     /**

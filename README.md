@@ -1,2 +1,2 @@
 # calculator
-nhn 아카데미 git 실습
+nhn 아카데미 git 실습 !
